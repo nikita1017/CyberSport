@@ -1,0 +1,124 @@
+body {
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.menu {
+    background-color: #222222;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 5px 10px rgb(35, 35, 35);
+    padding: 30px;
+}
+
+.menu_logo {
+    width: 200px;
+}
+
+.menu_logo a {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    background-image: url(assets/img/icons/site_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center-left;
+    padding-left: 50px;
+
+}
+
+.menu_nav {
+    float: right;
+}
+
+.menu_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_logo,
+.menu_nav {
+    display: inline-block;
+}
+
+.header {
+    background-image: url(assets/img/apex-legends-robot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 150px;
+}
+
+.header a {
+    background-color: rgb(22, 184, 209);
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    background-color: #222222;
+    text-align: center;
+    font-size: 0px;
+}
+
+.services_item {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: aqua;
+}
+
+.services .item1 {
+    background-image: url(assets/img/icons/friendly.svg);
+
+}
+
+.services .item2 {
+    background-image: url(assets/img/icons/joystic.svg);
+
+}
+
+.services .item3 {
+    background-image: url(assets/img/icons/scope.svg);
+}
+
+.services .item4 {
+    background-image: url(assets/img/icons/twitch.svg);
+}
+
+.games {
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+    background-color: #222222;
+}
+.item_text{
+    background-color: pink;
+    float: left;
+    width: 50%;
+}
+.item_text2{
+    background-color: pink;
+    float: right;
+    width: 50%;
+}
+.games img{
+    width: 50%;
+    height: 140px;
+    display: block;
+}
