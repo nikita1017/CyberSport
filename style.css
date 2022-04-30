@@ -108,17 +108,49 @@ body {
     background-color: #222222;
 }
 .item_text{
-    background-color: pink;
     float: left;
     width: 50%;
 }
 .item_text2{
-    background-color: pink;
     float: right;
     width: 50%;
 }
+.item_text p,
+.item_text2 p{
+    text-align: center;
+    color: aqua;
+}
 .games img{
     width: 50%;
-    height: 140px;
+    height: 180px;
     display: block;
+}
+.description{
+    text-align: center;
+}
+.description h1{
+    color: aqua;
+}
+.description p{
+    color: white;
+}
+.discord{
+    width: 580px;
+    height: 130px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+}
+.discord h1{
+    text-align: center;
+    color: aqua;
+}
+.discord h2{  
+
+    display: inline-block;
+    margin-right: 350px;
+    color: white;
+}   
+.discord h4{
+    display: inline-block;
+    color: white;
 }
