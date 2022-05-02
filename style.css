@@ -11,7 +11,10 @@ body {
 }
 
 .container h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
+    color: aqua;
 }
 
 .menu {
@@ -74,7 +77,7 @@ body {
 .services_item {
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 110px;
+    padding-top: 140px;
     padding-left: 20px;
     padding-right: 20px;
     display: inline-block;
@@ -82,6 +85,17 @@ body {
     box-sizing: border-box;
     font-size: 25px;
     color: aqua;
+}
+.item_text,
+.item_text2{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.item_text h3,
+.item_text2 h3{
+    width: 128px;
+    color:  rgb(39, 158, 35);
+    border-bottom: 3px solid rgb(79, 212, 79);
 }
 
 .services .item1 {
@@ -103,54 +117,82 @@ body {
 }
 
 .games {
+    padding-bottom: 20px;
     margin: 0 auto;
     box-shadow: 0 0 10px black;
     background-color: #222222;
 }
-.item_text{
+
+.item_text {
     float: left;
     width: 50%;
 }
-.item_text2{
+
+.item_text2 {
     float: right;
     width: 50%;
 }
+
 .item_text p,
-.item_text2 p{
+.item_text2 p {
     text-align: center;
     color: aqua;
 }
-.games img{
+
+.games img {
+    box-sizing: border-box;
+    padding: 0 5px;
     width: 50%;
     height: 180px;
     display: block;
 }
-.description{
+
+.description {
     text-align: center;
 }
-.description h1{
+
+.description h1 {
     color: aqua;
 }
-.description p{
+
+.description p {
     color: white;
 }
-.discord{
+
+.discord {
     width: 580px;
-    height: 130px;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 0 auto 20px;
     box-shadow: 0 0 10px black;
 }
-.discord h1{
+
+.discord h1 {
+    width: 250px;
+    border-bottom: 2px solid white;
     text-align: center;
+    margin: 0 auto;
     color: aqua;
 }
-.discord h2{  
+
+.discord h2 {
 
     display: inline-block;
     margin-right: 350px;
     color: white;
-}   
-.discord h4{
+}
+
+.discord h4 {
     display: inline-block;
     color: white;
+}
+
+.blue_black {
+    background-color: rgb(126, 202, 228);
+}
+.register {
+    display: inline-block;
+    background-color: black;
+    text-decoration: none;
+    width: 86px;
+    height: 26px;
 }
