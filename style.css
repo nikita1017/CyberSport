@@ -140,6 +140,7 @@ body {
 }
 
 .games img {
+    object-fit: cover;
     box-sizing: border-box;
     padding: 0 5px;
     width: 50%;
@@ -192,7 +193,8 @@ body {
 .register {
     display: inline-block;
     background-color: black;
+    text-align: center;
     text-decoration: none;
-    width: 86px;
-    height: 26px;
+    width: 100px;
+    line-height: 50px;
 }
